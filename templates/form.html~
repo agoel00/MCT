@@ -7,13 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
     <title>MCT Phase Calculator</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
-
+    
     <link href="{{ url_for('static', filename='theme.css') }}" rel="stylesheet">
   </head>
 
@@ -41,24 +40,6 @@
           </div>
 
     </div> <!-- /container -->
-    <hr>
-
-
-        <p id="typewriter"></p>
-        <hr>
-        <p><kbd>Created by Anmol Goel.</kbd></p>
-
-
-    <script type="text/javascript">
-        $("#typewriter").typeIt({
-            strings: ["Calculation of Temperature and Composition.", "Mercury-Cadmium-Telluride Infrared Detectors.","Developed for Liquid Phase Epitaxy Labs."],
-            speed: 60,
-            breakLines: false,
-            autoStart: false
-        });
-    </script>
-
 
   </body>
 </html>
-
